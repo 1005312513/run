@@ -1,7 +1,6 @@
 ## Welcome to orzplay
 
 正在建设中。。。
-<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
