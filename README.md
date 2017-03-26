@@ -9,7 +9,7 @@
 
 <body>
 <h1>思无涯，学无涯</h1> 
-<b>有朋自远方来，不亦乐乎!</b><hr/><h2>我的
+<b>有朋自远方来，不亦乐乎!</b><hr/><h2>人生只有三天<hr/>
 &nbsp;&nbsp;<a href="html\news.html">>>昨天</a>
 &nbsp;&nbsp;<a href="html\my.html">>>今天</a>
 &nbsp;&nbsp;<a href="html\study.html">>>明天</a>
