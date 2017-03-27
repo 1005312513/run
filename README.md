@@ -17,7 +17,7 @@
 <a href="game\first game\start_project-release-signed.apk">>>看那里有个星星呦</a>
 <h3>出门左拐：<a href="http://www.baidu.com">>>百度一下</a>
 </h3>
-</body>
+
 
 <script type="text/javascript">
  window.onload = function() {
@@ -32,6 +32,6 @@
    show.innerHTML = t;
   }, 1000);
  };
-</script>
+</script></body>
 
 </html>
