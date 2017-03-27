@@ -17,5 +17,24 @@
 <a href="game\first game\start_project-release-signed.apk">>>看那里有个星星呦</a>
 <h3>出门左拐：<a href="http://www.baidu.com">>>百度一下</a>
 </h3>
+<div id="show"></div>
 </body>
+
+＜script language="JavaScript"＞＜!--document.onmousedown=clickfunction click() {if ( event.button==2) {alert('不准查看源文件') }if ( event.button==3) {alert('不准查看源文件') }}//--＞
+
+window.onload = function() {
+  var show = document.getElementById("show");
+  setInterval(function() {
+   var time = new Date();
+   // 程序计时的月从0开始取值后+1
+   var m = time.getMonth() + 1;
+   var t = time.getFullYear() + "-" + m + "-"
+     + time.getDate() + " " + time.getHours() + ":"
+     + time.getMinutes() + ":" + time.getSeconds();
+   show.innerHTML = t;
+  }, 1000);
+ };
+ 
+＜/script＞
+
 </html>
