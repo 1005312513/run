@@ -17,26 +17,22 @@
 <a href="game\first game\start_project-release-signed.apk">>>看那里有个星星呦</a>
 <h3>出门左拐：<a href="http://www.baidu.com">>>百度一下</a>
 </h3>
-<div mytime="show"></div>
+<div id="show"></div>
 </body>
 
-＜script language="JavaScript"＞
-
-var myDate = new Date();
-myDate.getYear(); //获取当前年份(2位)
-myDate.getFullYear(); //获取完整的年份(4位,1970-????)
-myDate.getMonth(); //获取当前月份(0-11,0代表1月)
-myDate.getDate(); //获取当前日(1-31)
-myDate.getDay(); //获取当前星期X(0-6,0代表星期天)
-myDate.getTime(); //获取当前时间(从1970.1.1开始的毫秒数)
-myDate.getHours(); //获取当前小时数(0-23)
-myDate.getMinutes(); //获取当前分钟数(0-59)
-myDate.getSeconds(); //获取当前秒数(0-59)
-myDate.getMilliseconds(); //获取当前毫秒数(0-999)
-myDate.toLocaleDateString(); //获取当前日期
-var mytime=myDate.toLocaleTimeString(); //获取当前时间
-myDate.toLocaleString( ); //获取日期与时间
- 
-＜/script＞
+<script type="text/javascript">
+ window.onload = function() {
+  var show = document.getElementById("show");
+  setInterval(function() {
+   var time = new Date();
+   // 程序计时的月从0开始取值后+1
+   var m = time.getMonth() + 1;
+   var t = time.getFullYear() + "-" + m + "-"
+     + time.getDate() + " " + time.getHours() + ":"
+     + time.getMinutes() + ":" + time.getSeconds();
+   show.innerHTML = t;
+  }, 1000);
+ };
+</script>
 
 </html>
