@@ -1,6 +1,6 @@
 ## Welcome to orzplay
 
-正在建设中。。。
+<div id="show"></div>
 <html>
 <head>
 <meta charset="utf-8">
@@ -17,7 +17,6 @@
 <a href="game\first game\start_project-release-signed.apk">>>看那里有个星星呦</a>
 <h3>出门左拐：<a href="http://www.baidu.com">>>百度一下</a>
 </h3>
-<div id="show"></div>
 </body>
 
 <script type="text/javascript">
