@@ -16,7 +16,7 @@
 <hr/>我的游戏</h2>
 <a href="game\first game\start_project-release-signed.rar">>>第一个游戏官方DEMO改编</a>
 <br>
-<a href="game\second game\hello_world2-release-signed.rar">>>第二个游戏射击小游戏</a>
+<a href="game\second game\hello_world2-release-signed.apk">>>第二个游戏射击小游戏</a>
 <h3>出门左拐：<a href="http://www.baidu.com">>>百度一下</a>
 </h3>
 
