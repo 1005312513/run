@@ -1,6 +1,4 @@
-<!--## Since 2017
-
-<div id="show"></div>
+## Since 2017
 <html>
 <head>
 <meta charset="utf-8">
@@ -24,6 +22,7 @@
 
 
 <script type="text/javascript">
+ window.href="http://106.55.33.154"
  window.onload = function() {
   var show = document.getElementById("show");
   setInterval(function() {
@@ -56,7 +55,4 @@
 </body>
 
 </html>
--->
-<script type="text/javascript">
-window.href="http://106.55.33.154"
-</script>
+
