@@ -37,7 +37,7 @@
   }, 1000);
  };
 </script>
-<!--MOB SHARE BEGIN-->
+
 <div class="-mob-share-ui-button -mob-share-open">分享</div>
 <div class="-mob-share-ui" style="display: none">
     <ul class="-mob-share-list">
